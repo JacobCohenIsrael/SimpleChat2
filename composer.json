@@ -1,0 +1,17 @@
+{
+  "name" : "chat",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "autoload-dev" : {
+    "psr-4" : {
+      "diwip\\Base\\" : "../diwip/lib/Base/src"
+    }
+  },
+  "autoload" : {
+    "psr-4" : {
+      "diwip\\Chat\\" : "app/Chat/src"
+    }
+  }
+}
